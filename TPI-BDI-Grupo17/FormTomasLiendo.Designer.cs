@@ -62,16 +62,16 @@
             // dtpFechaDesde
             // 
             this.dtpFechaDesde.Location = new System.Drawing.Point(120, 31);
-            this.dtpFechaDesde.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtpFechaDesde.Margin = new System.Windows.Forms.Padding(2);
             this.dtpFechaDesde.Name = "dtpFechaDesde";
             this.dtpFechaDesde.Size = new System.Drawing.Size(151, 20);
             this.dtpFechaDesde.TabIndex = 2;
-            this.dtpFechaDesde.Value = new System.DateTime(2025, 11, 5, 14, 1, 4, 0);
+            this.dtpFechaDesde.Value = new System.DateTime(2023, 7, 1, 0, 0, 0, 0);
             // 
             // dtpFechaHasta
             // 
             this.dtpFechaHasta.Location = new System.Drawing.Point(120, 67);
-            this.dtpFechaHasta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtpFechaHasta.Margin = new System.Windows.Forms.Padding(2);
             this.dtpFechaHasta.Name = "dtpFechaHasta";
             this.dtpFechaHasta.Size = new System.Drawing.Size(151, 20);
             this.dtpFechaHasta.TabIndex = 3;
@@ -80,7 +80,7 @@
             // btnEjecutar
             // 
             this.btnEjecutar.Location = new System.Drawing.Point(285, 30);
-            this.btnEjecutar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEjecutar.Margin = new System.Windows.Forms.Padding(2);
             this.btnEjecutar.Name = "btnEjecutar";
             this.btnEjecutar.Size = new System.Drawing.Size(56, 19);
             this.btnEjecutar.TabIndex = 4;
@@ -90,10 +90,12 @@
             // 
             // dgvResultados
             // 
+            this.dgvResultados.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvResultados.BackgroundColor = System.Drawing.Color.White;
             this.dgvResultados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvResultados.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.dgvResultados.Location = new System.Drawing.Point(0, 109);
-            this.dgvResultados.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvResultados.Margin = new System.Windows.Forms.Padding(2);
             this.dgvResultados.Name = "dgvResultados";
             this.dgvResultados.RowHeadersWidth = 51;
             this.dgvResultados.RowTemplate.Height = 24;
@@ -122,7 +124,7 @@
             this.Controls.Add(this.lblFechaDesde);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dgvResultados);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormTomasLiendo";
             this.Text = "411994, Tomás Liendo";
             this.Load += new System.EventHandler(this.FormTomasLiendo_Load);

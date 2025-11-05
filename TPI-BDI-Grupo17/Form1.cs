@@ -39,5 +39,11 @@ namespace TPI_BDI_Grupo17
         {
             MessageBox.Show("La consulta muestra la cantidad total de facturas, el monto total recaudado y la proporción sobre el total de facturas por el método de pago en el último trimestre. Sirve para evaluar la conveniencia de cada método de pago, preferencias a la hora de abonar y posibles oportunidades de promociones bancarias o descuentos digitales. ", "423238, Ignacio Tomás Rosso", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void ejecutarDos_Click(object sender, EventArgs e)
+        {
+            FormTomasLiendo formTomasLiendo = new FormTomasLiendo();
+            formTomasLiendo.ShowDialog();
+        }
     }
 }

@@ -34,7 +34,7 @@
             this.ejecutarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.infoUno = new System.Windows.Forms.ToolStripMenuItem();
             this.consulta2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ejecutarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.ejecutarDos = new System.Windows.Forms.ToolStripMenuItem();
             this.infoDos = new System.Windows.Forms.ToolStripMenuItem();
             this.consulta3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ejecutarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
@@ -79,30 +79,31 @@
             // ejecutarToolStripMenuItem
             // 
             this.ejecutarToolStripMenuItem.Name = "ejecutarToolStripMenuItem";
-            this.ejecutarToolStripMenuItem.Size = new System.Drawing.Size(145, 26);
+            this.ejecutarToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.ejecutarToolStripMenuItem.Text = "Ejecutar";
             // 
             // infoUno
             // 
             this.infoUno.Name = "infoUno";
-            this.infoUno.Size = new System.Drawing.Size(145, 26);
+            this.infoUno.Size = new System.Drawing.Size(224, 26);
             this.infoUno.Text = "Info";
             this.infoUno.Click += new System.EventHandler(this.infoUno_Click);
             // 
             // consulta2ToolStripMenuItem
             // 
             this.consulta2ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ejecutarToolStripMenuItem1,
+            this.ejecutarDos,
             this.infoDos});
             this.consulta2ToolStripMenuItem.Name = "consulta2ToolStripMenuItem";
             this.consulta2ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.consulta2ToolStripMenuItem.Text = "Consulta 2";
             // 
-            // ejecutarToolStripMenuItem1
+            // ejecutarDos
             // 
-            this.ejecutarToolStripMenuItem1.Name = "ejecutarToolStripMenuItem1";
-            this.ejecutarToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
-            this.ejecutarToolStripMenuItem1.Text = "Ejecutar";
+            this.ejecutarDos.Name = "ejecutarDos";
+            this.ejecutarDos.Size = new System.Drawing.Size(224, 26);
+            this.ejecutarDos.Text = "Ejecutar";
+            this.ejecutarDos.Click += new System.EventHandler(this.ejecutarDos_Click);
             // 
             // infoDos
             // 
@@ -123,13 +124,13 @@
             // ejecutarToolStripMenuItem2
             // 
             this.ejecutarToolStripMenuItem2.Name = "ejecutarToolStripMenuItem2";
-            this.ejecutarToolStripMenuItem2.Size = new System.Drawing.Size(224, 26);
+            this.ejecutarToolStripMenuItem2.Size = new System.Drawing.Size(145, 26);
             this.ejecutarToolStripMenuItem2.Text = "Ejecutar";
             // 
             // infoTres
             // 
             this.infoTres.Name = "infoTres";
-            this.infoTres.Size = new System.Drawing.Size(224, 26);
+            this.infoTres.Size = new System.Drawing.Size(145, 26);
             this.infoTres.Text = "Info";
             this.infoTres.Click += new System.EventHandler(this.infoTres_Click);
             // 
@@ -145,13 +146,13 @@
             // ejecutarToolStripMenuItem3
             // 
             this.ejecutarToolStripMenuItem3.Name = "ejecutarToolStripMenuItem3";
-            this.ejecutarToolStripMenuItem3.Size = new System.Drawing.Size(224, 26);
+            this.ejecutarToolStripMenuItem3.Size = new System.Drawing.Size(145, 26);
             this.ejecutarToolStripMenuItem3.Text = "Ejecutar";
             // 
             // infoCuatro
             // 
             this.infoCuatro.Name = "infoCuatro";
-            this.infoCuatro.Size = new System.Drawing.Size(224, 26);
+            this.infoCuatro.Size = new System.Drawing.Size(145, 26);
             this.infoCuatro.Text = "Info";
             this.infoCuatro.Click += new System.EventHandler(this.infoCuatro_Click);
             // 
@@ -179,7 +180,7 @@
         private System.Windows.Forms.ToolStripMenuItem ejecutarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem infoUno;
         private System.Windows.Forms.ToolStripMenuItem consulta2ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ejecutarToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem ejecutarDos;
         private System.Windows.Forms.ToolStripMenuItem infoDos;
         private System.Windows.Forms.ToolStripMenuItem consulta3ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ejecutarToolStripMenuItem2;

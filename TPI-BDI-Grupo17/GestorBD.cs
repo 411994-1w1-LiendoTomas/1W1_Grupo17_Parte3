@@ -11,7 +11,8 @@ namespace TPI_BDI_Grupo17
     public static class GestorBD
     {
         // Conexión Tomás:
-        private static string cadenaConexion = @"Data Source=DESKTOP-R6HLHK7\SQLEXPRESS;Initial Catalog=BDD_Grupo17;Integrated Security=True;";
+        //private static string cadenaConexion = @"Data Source=DESKTOP-R6HLHK7\SQLEXPRESS;Initial Catalog=BDD_Grupo17;Integrated Security=True;";
+        private static string cadenaConexion = @"Data Source=.\sqlexpress;Initial Catalog=BDD_Grupo17;Integrated Security=True;";
 
         // Conexión Franco:
 
